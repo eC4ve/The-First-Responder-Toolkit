@@ -15,5 +15,6 @@ For Windows:
 
 For Linux
 >uptime
+>
 >w
 >
