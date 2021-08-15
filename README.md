@@ -19,6 +19,9 @@
 >
 >tasklist
 >
+>net sessions
+>>      net session [\\ComputerName] [/delete]
+>
 >wmic
 >>Examine Auto Start processes:
 >>>     wmic /node:<remote-ip> /user:<username> startup list full
@@ -34,21 +37,7 @@
 >>
 >>Find command line invocation of a specific executable as well as the creation time for the process (for all, leave off ?where name='). Reference this [Microsoft TechNet article](https://docs.microsoft.com/en-us/previous-versions/tn-archive/ee156576(v=technet.10)?redirectedfrom=MSDN) for converting the time:
 >>>     wmic /node:<remote-ip> /user:<username> process where get name,processid,commandline,creationdate
->>
->>
->>>
->>
->>
->>>
->>
->>
->>>
->>
->>
->>>
->>
->>
->>>
+>
 >ListDLLs (SysInternals)
 >
 >PsList.exe (SysInternals)
@@ -57,6 +46,7 @@
 >pmdump.exe (for memory dumps)
 >
 >psloggedon.exe (SysInternals)
+>>      psloggedon [-] [-l] [-x] [\\computername | username]
 >
 >PsFile (SysInternals)
 >
