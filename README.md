@@ -19,6 +19,8 @@
 >
 >tasklist
 >
+>netstat -ano
+>
 >net sessions
 >>      net session [\\ComputerName] [/delete]
 >
