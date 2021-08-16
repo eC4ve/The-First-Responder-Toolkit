@@ -39,6 +39,9 @@
 >>>     wmic /node:<remote-ip> /user:<username> process where get name,processid,commandline,creationdate
 >
 >ListDLLs (SysInternals)
+>>      listdlls [-r] [-v | -u] [processname|pid]
+>
+>>      listdlls [-r] [-v | -u] [processname|pid] 
 >
 >PsList.exe (SysInternals)
 >>       Pslist-x
@@ -49,6 +52,9 @@
 >>      psloggedon [-] [-l] [-x] [\\computername | username]
 >
 >PsFile (SysInternals)
+>
+>LogonSessions.exe
+>>      logonsessions [-c[t]] [-p]
 >
 >Free Clipboard Viewer https://freeclipboardviewer.com/es/
 >
@@ -63,5 +69,19 @@ For Linux
 >ps
 >
 >pstree
+>
+>who
+>
+>who am i, who -uH
+>
+>who -all/-a
+>
+>last
+>
+>lastlog
+>
+>w
+>
+>lld
 >
 >
